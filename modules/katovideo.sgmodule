@@ -1,13 +1,13 @@
 #!name=加藤视频
 #!desc=加藤视频vip解锁,付费视频解锁,下载,会员线路,去广告++
 #!icon=https://m.360buyimg.com/i/jfs/t1/297449/24/3094/59300/68179aedFc7042d3f/41928830401231b5.png
-#!author=Yu9191
+#!author=ios151
 #!category=18+
 #!arguments=日志级别:error
 #!arguments-desc=日志级别: error(默认,静默只报错) / off / warn / info / debug / all
 
 [Script]
-katovideo API = type=http-response, pattern=^https?:\/\/[^/]+\/(?:iqiyi\/media\/anime\/[^?]*|iqiyi\/media\/ad\/listByIdList|iqiyi\/media\/longer\/(?:info\/(?:detail|superiorList)|module\/listPage)|gm\/game\/[^?]*|dd\/prize\/infoList|wxuser\/user\/(?:sys\/(?:app|sys)ConfigList|info\/(?:getUser(?:Vip)?|tokenLogin))|shorter\/video\/home\/newlist|[^?]*video\/search), requires-body=1, max-size=-1, timeout=30, script-path=https://raw.githubusercontent.com/Yu9191/JTSP/refs/heads/main/dist/katovideo.js, argument=logLevel={{{日志级别}}}
+katovideo API = type=http-response, pattern=^https?:\/\/[^/]+\/(?:iqiyi\/media\/anime\/[^?]*|iqiyi\/media\/ad\/listByIdList|iqiyi\/media\/longer\/(?:info\/(?:detail|superiorList)|module\/listPage)|gm\/game\/[^?]*|dd\/prize\/infoList|wxuser\/user\/(?:sys\/(?:app|sys)ConfigList|info\/(?:getUser(?:Vip)?|tokenLogin))|shorter\/video\/home\/newlist|[^?]*video\/search), requires-body=1, max-size=-1, timeout=30, script-path=https://raw.githubusercontent.com/ios151/JTSP/refs/heads/main/dist/katovideo.js, argument=logLevel={{{日志级别}}}
 
 [MITM]
 # 加藤视频 API 主机会随机轮换(随机子域名+顶级域+非标准端口)。

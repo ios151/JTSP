@@ -8,15 +8,15 @@
 
 **Surge / Egern**
 
-https://raw.githubusercontent.com/Yu9191/JTSP/refs/heads/main/modules/katovideo.sgmodule
+https://raw.githubusercontent.com/ios151/JTSP/refs/heads/main/modules/katovideo.sgmodule
 
 **Quantumult X**
 
-https://raw.githubusercontent.com/Yu9191/JTSP/refs/heads/main/modules/katovideo.conf
+https://raw.githubusercontent.com/ios151/JTSP/refs/heads/main/modules/katovideo.conf
 
 **Loon**
 
-https://raw.githubusercontent.com/Yu9191/JTSP/refs/heads/main/modules/katovideo.lpx
+https://raw.githubusercontent.com/ios151/JTSP/refs/heads/main/modules/katovideo.lpx
 
 > Stash / Shadowrocket 等：用 [Script-Hub](https://github.com/Script-Hub-Org/Script-Hub) 把 `.sgmodule` 转换后订阅，或直接用 `modules/katovideo.shadowrocket.sgmodule`。
 

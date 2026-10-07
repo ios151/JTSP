@@ -1,6 +1,6 @@
 #!name = 加藤视频
 #!desc = 加藤视频vip解锁,付费视频解锁,下载,会员线路,去广告++
-#!author = Yu9191
+#!author = ios151
 #!icon = https://m.360buyimg.com/i/jfs/t1/297449/24/3094/59300/68179aedFc7042d3f/41928830401231b5.png
 #!category = 18+
 
@@ -8,7 +8,7 @@
 logLevel = select, "info", "off", "error", "warn", "debug", "all", tag=日志级别, desc=选择日志输出级别 (默认 info)
 
 [Script]
-http-response ^https?:\/\/[^/]+\/(?:iqiyi\/media\/anime\/[^?]*|iqiyi\/media\/ad\/listByIdList|iqiyi\/media\/longer\/(?:info\/(?:detail|superiorList)|module\/listPage)|gm\/game\/[^?]*|dd\/prize\/infoList|wxuser\/user\/(?:sys\/(?:app|sys)ConfigList|info\/(?:getUser(?:Vip)?|tokenLogin))|shorter\/video\/home\/newlist|[^?]*video\/search) script-path=https://raw.githubusercontent.com/Yu9191/JTSP/refs/heads/main/dist/katovideo.js, requires-body=true, timeout=30, tag=katovideo, argument=[{logLevel}]
+http-response ^https?:\/\/[^/]+\/(?:iqiyi\/media\/anime\/[^?]*|iqiyi\/media\/ad\/listByIdList|iqiyi\/media\/longer\/(?:info\/(?:detail|superiorList)|module\/listPage)|gm\/game\/[^?]*|dd\/prize\/infoList|wxuser\/user\/(?:sys\/(?:app|sys)ConfigList|info\/(?:getUser(?:Vip)?|tokenLogin))|shorter\/video\/home\/newlist|[^?]*video\/search) script-path=https://raw.githubusercontent.com/ios151/JTSP/refs/heads/main/dist/katovideo.js, requires-body=true, timeout=30, tag=katovideo, argument=[{logLevel}]
 
 [MITM]
 hostname = txxncjt.7vvfzx7.my, xy8scio.8oy75gk.xyz, akhyb7k.iyquagu.xyz, 8non608.k58z3gl.my, lym6vq1.dmwvoky.fit, *.7vvfzx7.my, *.8oy75gk.xyz, *.iyquagu.xyz, *.k58z3gl.my, *.dmwvoky.fit, xvrxwdo.j83maij.fit, vmm6j73.ml17wfc.fit, fuf7g49.qvq80fc.fit, xuhie6x.fzmhe5lai.app, *.j83maij.fit, *.ml17wfc.fit, *.qvq80fc.fit, *.fzmhe5lai.app, ijppzch.jlgdyf.com
